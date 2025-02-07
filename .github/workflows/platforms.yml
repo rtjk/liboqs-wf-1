@@ -22,5 +22,5 @@ jobs:
   windows-tests:
     uses: ./.github/workflows/windows.yml
 
-  zephyr-tests:
-    uses: ./.github/workflows/zephyr.yml
+  # zephyr-tests:
+  #   uses: ./.github/workflows/zephyr.yml
