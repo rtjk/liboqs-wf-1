@@ -71,6 +71,8 @@ def shell(command, expect=0):
 # Generate template from specified scheme to replace old file in 'copy' mode
 # but preserves additions made to file in prior runs of 'libjade' mode 
 def generator(destination_file_path, template_filename, delimiter, family, scheme_desired):
+    if not os.path.exists(os.path.join(os.environ['LIBOQS_DIR'], destination_file_path)):
+        open(os.path.join(os.environ['LIBOQS_DIR'], destination_file_path), 'a').close()
     template = file_get_contents(
         os.path.join(os.environ['LIBOQS_DIR'], 'scripts', 'copy_from_upstream', template_filename))
     f = copy.deepcopy(family)
