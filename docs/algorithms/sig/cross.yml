@@ -23,7 +23,7 @@ website: https://www.cross-crypto.com/
 nist-round: 2
 spec-version: 2.0 + PQClean and OQS patches
 primary-upstream:
-  source: https://github.com/rtjk/CROSS-PQClean/commit/d89a254c4d0acf2dabd8918c8a9e4ba27f4e040e
+  source: https://github.com/rtjk/CROSS-PQClean/commit/383ac42e9c0208c1ca8c3040330c3f42f0da5a33
   spdx-license-identifier: CC0-1.0
 parameter-sets:
 - name: cross-rsdp-128-balanced
