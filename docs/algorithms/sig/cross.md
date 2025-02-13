@@ -7,7 +7,7 @@
 - **Authors' website**: https://www.cross-crypto.com/
 - **Specification version**: 2.0 + PQClean and OQS patches.
 - **Primary Source**<a name="primary-source"></a>:
-  - **Source**: https://github.com/rtjk/CROSS-PQClean/commit/358eb183907355ea6664c88c7770f91b3eeaf56b
+  - **Source**: https://github.com/rtjk/CROSS-PQClean/commit/d89a254c4d0acf2dabd8918c8a9e4ba27f4e040e
   - **Implementation license (SPDX-Identifier)**: CC0-1.0
 
 
