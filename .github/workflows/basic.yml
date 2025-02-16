@@ -127,7 +127,7 @@ jobs:
     runs-on: ubuntu-latest
     container: openquantumsafe/ci-ubuntu-latest:latest
     env:
-      SIG_NAME: dilithium_2
+      SIG_NAME: cross_rsdp_128_balanced
       CC: clang
       CXX: clang++
       CFLAGS: -fsanitize=fuzzer-no-link,address
