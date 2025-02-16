@@ -72,8 +72,11 @@ static OQS_STATUS fuzz_sig(const uint8_t *data, size_t data_len) {
 
 	sig = OQS_SIG_new(algorithm);
 	if (sig == NULL) {
-		printf("%s was not enabled at compile-time.\n", algorithm);
+		// printf("%s was not enabled at compile-time.\n", algorithm);
 		return OQS_ERROR;
+	}
+	else {
+		printf("----> %s\n", algorithm);
 	}
 
 	public_key = malloc(sig->length_public_key);
