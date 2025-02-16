@@ -123,7 +123,7 @@ jobs:
 
   fuzzbuildcheck:
     name: Check that code passes a basic fuzzing build
-    needs: [workflowcheck, stylecheck, upstreamcheck]
+    # needs: [workflowcheck, stylecheck, upstreamcheck]
     runs-on: ubuntu-latest
     container: openquantumsafe/ci-ubuntu-latest:latest
     env:
