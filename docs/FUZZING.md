@@ -15,6 +15,7 @@ errors, helping developers identify and fix bugs and security loopholes.
   - [ ] ml_kem
   - [ ] ntruprime
 - [ ] sig
+  - [x] cross
   - [x] dilithium
   - [x] falcon
   - [x] mayo
