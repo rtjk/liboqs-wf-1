@@ -9,8 +9,11 @@ on:
 
 jobs:
 
-  platform-tests:
-    uses: ./.github/workflows/platforms.yml
+  basic-checks:
+    uses: ./.github/workflows/basic.yml
+
+  # platform-tests:
+  #   uses: ./.github/workflows/platforms.yml
 
   # scorecard:
   #   uses: ./.github/workflows/scorecard.yml
